@@ -1,0 +1,72 @@
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #666;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-block;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .search-bar {
+    width: 50%;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .custom-table {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .custom-table .ant-table-thead > tr > th {
+    background: #f0f2f5;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .custom-table .ant-table-tbody > tr > td {
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .custom-table .ant-table-tbody > tr:nth-child(odd) > td {
+    background-color: #fafafa;
+  }
+  
+  .custom-table .ant-table-tbody > tr > td,
+  .custom-table .ant-table-thead > tr > th {
+    border-color: #d9d9d9;
+  }
+  
+  .ant-btn {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .ant-btn:hover {
+    background-color: #1890ff;
+    color: #fff;
+  }
+  
+  .ant-modal-footer {
+    display: none;
+  }
+  
+  .ant-form-item-label > label {
+    font-weight: bold;
+  }
